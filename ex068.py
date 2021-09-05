@@ -21,6 +21,7 @@ while True:
     print(f'Você jogou {nume} e a Máquina jogou {Maquina}, TOTAL {soma}')
     if par == 0 and jogador == resp1 or par != 0 and jogador == resp2:
         print('Você Venceu!')
+        print('Vamos jogar novamente...')
         cont += 1
     else:
         print("Você perdeu para a Maquina. 'HA' 'HA' 'HA'")

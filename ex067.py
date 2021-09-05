@@ -5,7 +5,7 @@ print('=' * 26)
 while True:
     print('Digite qualquer número inteiro negativo para sair do programa.')
     nume = int(input('Digite um número para ver sua tabuada: '))
-    if nume <= -1:
+    if nume < 0:
         break
     while cont < 10:
         cont += 1
