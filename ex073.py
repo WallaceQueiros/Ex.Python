@@ -25,8 +25,6 @@ print(f'Os 4 ultimos colocados são: {time[6:10]}')
 print('='*27)
 print(f'Tabela em Ordem alfabética: {sorted(time)}')
 print('='*27)
-
-for cont in range(9, len(time)):
-    print(f'O Cuiabá está na {cont}° posição')
+print(f'O Cuiabá está na {time.index("Cuiabá") +1}° posição')
 print('='*27)
 
