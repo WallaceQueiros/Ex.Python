@@ -1,5 +1,5 @@
 print('='*39)
-print('{:^39}'. format('LISTAGEM DE PREÇOS'))
+print('{:^39}'.format('LISTAGEM DE PREÇOS'))
 print('='*39)
 listagem = ('Lápis',    1.75,
             'Borracha',  2.00,
