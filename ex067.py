@@ -1,4 +1,5 @@
 from time import sleep
+
 nume = cont = 0
 print('{:=^26}'.format(' TABUADA '))
 print('=' * 26)
@@ -12,4 +13,3 @@ while True:
         sleep(0.8)
         print(f'{nume} x {cont:2} = {nume * cont}')
     cont = 0
-

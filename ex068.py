@@ -1,5 +1,6 @@
 from random import randint
 from time import sleep
+
 soma = cont = 0
 resp1 = 'PAR'.upper()[0]
 resp2 = 'IMPAR'.upper()[0]

@@ -1,4 +1,5 @@
 from time import sleep
+
 nume = int(input('Informe o primeiro númeor: '))
 nume2 = int(input('Informe o segundo número: '))
 opcao = 0
@@ -14,9 +15,9 @@ while opcao != 5:
     print('PROCESSANDO SUA OPÇÃO...')
     sleep(1.5)
     if opcao == 1:
-        print(f' A soma dos números {nume} + {nume2} é: {nume+nume2}')
+        print(f' A soma dos números {nume} + {nume2} é: {nume + nume2}')
     elif opcao == 2:
-        print(f'A multiplicação dos números {nume} x {nume2} é: {nume*nume2}')
+        print(f'A multiplicação dos números {nume} x {nume2} é: {nume * nume2}')
     elif opcao == 3:
         if nume2 > nume:
             maior = nume2

@@ -8,7 +8,7 @@ while True:
     resp = str(input('Quer continuar? [Sim/Não]: ')).strip().upper()
     if resp in 'N':
         break
-print('='*26)
+print('=' * 26)
 print(f'{"N°":<4}{"NOME":<10}{"MÉDIA":>8}')
 for i, a in enumerate(ficha):
     print(f'{i:<4}{a[0]:<10}{a[2]:>8.1f}')

@@ -1,2 +1,3 @@
 # Ex.Python
+
 Exercicios Python

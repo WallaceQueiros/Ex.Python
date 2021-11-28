@@ -1,7 +1,7 @@
 valores = []
 for cont in range(0, 5):
     valores.append(int(input(f'Informe o valor para a posição {cont + 1}: ')))
-print('='*39)
+print('=' * 39)
 print(f'Você digitou os valores {valores}')
 print(f'O maior número foi {max(valores)} nas posições ', end='')
 for c, v in enumerate(valores):

@@ -1,4 +1,5 @@
 from math import radians, sin, cos, tan
+
 angu = float(input('Digite o ângulo: '))
 seno = sin(radians(angu))
 cose = cos(radians(angu))

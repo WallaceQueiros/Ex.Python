@@ -1,10 +1,11 @@
 from random import randint
 from time import sleep
+
 lista = list()
 jogos = list()
-print('-'*30)
+print('-' * 30)
 print('{:^30}'.format('MEGA SENA'))
-print('-'*30)
+print('-' * 30)
 quant = int(input('Quantos jogos você quer que eu sorteie? '))
 tot = 1
 while tot <= quant:

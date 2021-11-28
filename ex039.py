@@ -1,4 +1,5 @@
 from datetime import date
+
 # menu
 print('=' * 31)
 print('Serviço de Alistamento Militar')

@@ -1,6 +1,6 @@
-print('='*26)
+print('=' * 26)
 print('{:^26}'.format('Sequência de Fibonacci'))
-print('='*26)
+print('=' * 26)
 nume = int(input('Digite p número de termos que quer mostrar: '))
 termo1 = 0
 termo2 = 1

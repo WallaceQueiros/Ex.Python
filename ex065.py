@@ -23,5 +23,3 @@ if resp == resp2:
         print(f'O maior número foi {maior} e o menor foi {menor}.')
 if resp == resp2:
     print('')
-
-

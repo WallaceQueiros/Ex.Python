@@ -1,9 +1,9 @@
 from time import sleep
+
 preco_normal = float(input('Informe o valor do produto: '))
 desconto1 = preco_normal - (preco_normal * 10) / 100
 desconto2 = preco_normal - (preco_normal * 5) / 100
 cartao = preco_normal + (preco_normal * 20) / 100
-
 
 # MENU
 print('''FORMAS DE PAGAMENTO.

@@ -1,4 +1,5 @@
 from datetime import date
+
 nome_atleta = str(input('Informe o nome do atleta: '))
 ano_nascimento = int(input('Informe a data de nascimento do atleta: '))
 idade = date.today().year - ano_nascimento

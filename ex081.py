@@ -4,7 +4,7 @@ while True:
     opcao = str(input('Quer continuar? [Sim/Não]: ')).strip().upper()[0]
     if opcao == 'N':
         break
-print('-'*31)
+print('-' * 31)
 print(f'Essa lista possui {len(lista)} elementos.')
 (lista.sort(reverse=True))
 print(f'Os valores em ordem decrescente: {lista}')

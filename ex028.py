@@ -1,5 +1,6 @@
 import random
 from time import sleep
+
 P1 = int(input('Digite um número de 0 a 5: '))
 num = random.randint(0, 5)
 print('PROCESSANDO...')

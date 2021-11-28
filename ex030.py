@@ -1,4 +1,5 @@
 from time import sleep
+
 nume = int(input('Digite um número inteiro: '))
 par = nume % 2
 print('Verificando...')
