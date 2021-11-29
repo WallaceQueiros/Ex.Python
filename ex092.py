@@ -8,7 +8,7 @@ print('Caso não tenha carteira de trabalho digite 0')
 dados['CTPS'] = int(input('Carteira de Trabalho: '))
 if dados['CTPS'] != 0:
     dados['contratacao'] = int(input('Ano de contratação: '))
-    dados['saldo'] = int(input('Salário: '))
+    dados['saldo'] = float(input('Salário: R$'))
     dados['aposenta'] = dados['contratacao'] - nasc + 35
     print('-'*30)
     print(f'Nome: {dados["nome"]}\nIdade: {dados["idade"]}\nCTPS: {dados["CTPS"]} '
