@@ -1,12 +1,14 @@
 valores = list()
 while True:
-    v = (int(input('Digite um valor: ')))
-    if v not in valores:
-        valores.append(v)
+    numero = (int(input('Digite um valor: ')))
+    if numero not in valores:
+        valores.append(numero)
+        print('Valor adicionado com sucesso. ')
     else:
-        print('O número informado já existe na lista, tente outro.')
-    pergunta = str(input('Quer continuar? [Sim/Não]: ')).strip().upper()[0]
-    if pergunta == 'N':
+        print('Valor duplicado não será adicionado. ')
+    quest = str(input('Quer continuar SIM|Quer parar NÃO: ')).upper()[0]
+    if quest == 'N':
         break
+print('-='*30)
 valores.sort()
-print(valores)
+print(f'Sua lista de número é {valores}')
